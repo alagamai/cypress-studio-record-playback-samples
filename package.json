@@ -1,0 +1,14 @@
+{
+  "name": "cypress-studio-record-playback",
+  "version": "1.0.0",
+  "description": "to test record and playback feature of cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.13.0"
+  }
+}
