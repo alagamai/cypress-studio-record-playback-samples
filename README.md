@@ -10,16 +10,26 @@ NodeJS: https://nodejs.org/en/download
 
 # Steps to enable cyrpess studio  
  1. enable experimentalStudio in cypress.config.js as below
+ 
 	module.exports = defineConfig({
+	
 	//this is to enable cypress studio record and playback feature
+	
 	experimentalStudio: true,
+	
 	e2e: {
+	
 		setupNodeEvents(on, config) {
 			// implement node event listeners here
 		},
+		
 		specPattern: 'cypress/e2e/**/*.js',
+		
 	},
 	});
+	
+2. npx cypress open 
+3. click on add new test -> execute steps => right click on element to add chai assertion 
 
 ## Use
 
